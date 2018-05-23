@@ -89,12 +89,8 @@ img.emoji {
 
 @font-face {
     font-family: revicons;
-    src : url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
-    src : url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"),
-          url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"),
-          url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"),
-          url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
-          url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+    src: url(/assets/wp-content/plugins/revslider/public/assets/css/../fonts/revicons/revicons.eot?5510888);
+    src: url(/assets/wp-content/plugins/revslider/public/assets/css/../fonts/revicons/revicons.eot?5510888#iefix) format('embedded-opentype'), url(/assets/wp-content/plugins/revslider/public/assets/css/../fonts/revicons/revicons.woff?5510888) format('woff'), url(/assets/wp-content/plugins/revslider/public/assets/css/../fonts/revicons/revicons.ttf?5510888) format('truetype'), url(/assets/wp-content/plugins/revslider/public/assets/css/../fonts/revicons/revicons.svg?5510888#revicons) format('svg');
     font-weight: 400;
     font-style: normal
 }
@@ -424,11 +420,11 @@ img.emoji {
 }
 
 .tp-carousel-wrapper {
-    cursor: url(../../../plugins/revslider/public/assets/css/openhand.cur), move
+    cursor: url(/assets/wp-content/plugins/revslider/public/assets/css/openhand.cur), move
 }
 
 .tp-carousel-wrapper.dragged {
-    cursor: url(../../../plugins/revslider/public/assets/css/closedhand.cur), move
+    cursor: url(/assets/wp-content/plugins/revslider/public/assets/css/closedhand.cur), move
 }
 
 .tp_inner_padding {
@@ -884,19 +880,19 @@ img.tp-slider-alternative-image {
 }
 
 .tp-dottedoverlay.twoxtwo {
-    background: url(../../../plugins/revslider/public/assets/assets/gridtile.png)
+    background: url(/assets/wp-content/plugins/revslider/public/assets/css/../assets/gridtile.png)
 }
 
 .tp-dottedoverlay.twoxtwowhite {
-    background: url(../../../plugins/revslider/public/assets/assets/gridtile_white.png)
+    background: url(/assets/wp-content/plugins/revslider/public/assets/css/../assets/gridtile_white.png)
 }
 
 .tp-dottedoverlay.threexthree {
-    background: url(../../../plugins/revslider/public/assets/assets/gridtile_3x3.png)
+    background: url(/assets/wp-content/plugins/revslider/public/assets/css/../assets/gridtile_3x3.png)
 }
 
 .tp-dottedoverlay.threexthreewhite {
-    background: url(../../../plugins/revslider/public/assets/assets/gridtile_3x3_white.png)
+    background: url(/assets/wp-content/plugins/revslider/public/assets/css/../assets/gridtile_3x3_white.png)
 }
 
 .tp-shadowcover {
@@ -1353,7 +1349,7 @@ img.tp-slider-alternative-image {
 .tp-caption img {
     background: 0 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF);
     zoom: 1
 }
 
@@ -1361,16 +1357,16 @@ img.tp-slider-alternative-image {
 .tp-caption.slidelink a div {
     width: 3000px;
     height: 1500px;
-    background: url(../../../plugins/revslider/public/assets/assets/coloredbg.png)
+    background: url(/assets/wp-content/plugins/revslider/public/assets/css/../assets/coloredbg.png)
 }
 
 .tp-caption.slidelink a span {
-    background: url(../../../plugins/revslider/public/assets/assets/coloredbg.png)
+    background: url(/assets/wp-content/plugins/revslider/public/assets/css/../assets/coloredbg.png)
 }
 
 .tp-loader.spinner0,
 .tp-loader.spinner5 {
-    background-image: url(../../../plugins/revslider/public/assets/assets/loader.gif);
+    background-image: url(/assets/wp-content/plugins/revslider/public/assets/css/../assets/loader.gif);
     background-repeat: no-repeat
 }
 
@@ -4106,7 +4102,7 @@ body.boxed {
 
 .ie8 .main-featured .slider .caption,
 .ie8 .main-featured .blocks h3 {
-    background-image: url(../../../themes/smart-mag/images/ie8-slider-overlay.png)
+    background-image: url(/assets/wp-content/themes/smart-mag/images/ie8-slider-overlay.png)
 }
 
 .ie8 .main-featured .blocks .small h3 {
@@ -5211,7 +5207,7 @@ hr.half {
     text-align: center;
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.35) 100%);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.35) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#cc000000', GradientType=0)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#cc000000', GradientType=0)
 }
 
 .overlay-post .meta {
@@ -7229,7 +7225,7 @@ h3.gallery-title {
     z-index: 5;
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.95) 100%);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.95) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#e6000000', GradientType=0)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#e6000000', GradientType=0)
 }
 
 .post-cover .caption {
@@ -7677,7 +7673,7 @@ h3.gallery-title {
     box-sizing: border-box;
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.85) 100%);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.85) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
     text-shadow: 0 1px 0 rgba(0, 0, 0, .6)
 }
 
@@ -9736,15 +9732,15 @@ div.pp_default .pp_bottom .pp_right {
 }
 
 div.pp_default .pp_top .pp_left {
-    background: url(../../../themes/smart-mag/images/prettyPhoto/default/sprite.png) -78px -93px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/default/sprite.png) -78px -93px no-repeat
 }
 
 div.pp_default .pp_top .pp_middle {
-    background: url(../../../themes/smart-mag/images/prettyPhoto/default/sprite_x.png) top left repeat-x
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/default/sprite_x.png) top left repeat-x
 }
 
 div.pp_default .pp_top .pp_right {
-    background: url(../../../themes/smart-mag/images/prettyPhoto/default/sprite.png) -112px -93px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/default/sprite.png) -112px -93px no-repeat
 }
 
 div.pp_default .pp_content .ppt {
@@ -9752,58 +9748,58 @@ div.pp_default .pp_content .ppt {
 }
 
 div.pp_default .pp_content_container .pp_left {
-    background: url(../../../themes/smart-mag/images/prettyPhoto/default/sprite_y.png) -7px 0 repeat-y;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/default/sprite_y.png) -7px 0 repeat-y;
     padding-left: 13px
 }
 
 div.pp_default .pp_content_container .pp_right {
-    background: url(../../../themes/smart-mag/images/prettyPhoto/default/sprite_y.png) top right repeat-y;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/default/sprite_y.png) top right repeat-y;
     padding-right: 13px
 }
 
 div.pp_default .pp_next:hover {
-    background: url(../../../themes/smart-mag/images/prettyPhoto/default/sprite_next.png) center right no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/default/sprite_next.png) center right no-repeat;
     cursor: pointer
 }
 
 div.pp_default .pp_previous:hover {
-    background: url(../../../themes/smart-mag/images/prettyPhoto/default/sprite_prev.png) center left no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/default/sprite_prev.png) center left no-repeat;
     cursor: pointer
 }
 
 div.pp_default .pp_expand {
-    background: url(../../../themes/smart-mag/images/prettyPhoto/default/sprite.png) 0 -29px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/default/sprite.png) 0 -29px no-repeat;
     cursor: pointer;
     width: 28px;
     height: 28px
 }
 
 div.pp_default .pp_expand:hover {
-    background: url(../../../themes/smart-mag/images/prettyPhoto/default/sprite.png) 0 -56px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/default/sprite.png) 0 -56px no-repeat;
     cursor: pointer
 }
 
 div.pp_default .pp_contract {
-    background: url(../../../themes/smart-mag/images/prettyPhoto/default/sprite.png) 0 -84px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/default/sprite.png) 0 -84px no-repeat;
     cursor: pointer;
     width: 28px;
     height: 28px
 }
 
 div.pp_default .pp_contract:hover {
-    background: url(../../../themes/smart-mag/images/prettyPhoto/default/sprite.png) 0 -113px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/default/sprite.png) 0 -113px no-repeat;
     cursor: pointer
 }
 
 div.pp_default .pp_close {
     width: 30px;
     height: 30px;
-    background: url(../../../themes/smart-mag/images/prettyPhoto/default/sprite.png) 2px 1px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/default/sprite.png) 2px 1px no-repeat;
     cursor: pointer
 }
 
 div.pp_default .pp_gallery ul li a {
-    background: url(../../../themes/smart-mag/images/prettyPhoto/default/default_thumb.png) center center #f8f8f8;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/default/default_thumb.png) center center #f8f8f8;
     border: 1px solid #aaa
 }
 
@@ -9819,7 +9815,7 @@ div.pp_default .pp_gallery a.pp_arrow_next {
 
 div.pp_default .pp_nav .pp_play,
 div.pp_default .pp_nav .pp_pause {
-    background: url(../../../themes/smart-mag/images/prettyPhoto/default/sprite.png) -51px 1px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/default/sprite.png) -51px 1px no-repeat;
     height: 30px;
     width: 30px
 }
@@ -9830,7 +9826,7 @@ div.pp_default .pp_nav .pp_pause {
 
 div.pp_default a.pp_arrow_previous,
 div.pp_default a.pp_arrow_next {
-    background: url(../../../themes/smart-mag/images/prettyPhoto/default/sprite.png) -31px -3px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/default/sprite.png) -31px -3px no-repeat;
     height: 20px;
     width: 20px;
     margin: 4px 0 0
@@ -9881,144 +9877,144 @@ div.pp_default .pp_description {
 }
 
 div.pp_default .pp_bottom .pp_left {
-    background: url(../../../themes/smart-mag/images/prettyPhoto/default/sprite.png) -78px -127px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/default/sprite.png) -78px -127px no-repeat
 }
 
 div.pp_default .pp_bottom .pp_middle {
-    background: url(../../../themes/smart-mag/images/prettyPhoto/default/sprite_x.png) bottom left repeat-x
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/default/sprite_x.png) bottom left repeat-x
 }
 
 div.pp_default .pp_bottom .pp_right {
-    background: url(../../../themes/smart-mag/images/prettyPhoto/default/sprite.png) -112px -127px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/default/sprite.png) -112px -127px no-repeat
 }
 
 div.pp_default .pp_loaderIcon {
-    background: url(../../../themes/smart-mag/images/prettyPhoto/default/loader.gif) center center no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/default/loader.gif) center center no-repeat
 }
 
 div.light_rounded .pp_top .pp_left {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_rounded/sprite.png) -88px -53px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_rounded/sprite.png) -88px -53px no-repeat
 }
 
 div.light_rounded .pp_top .pp_right {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_rounded/sprite.png) -110px -53px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_rounded/sprite.png) -110px -53px no-repeat
 }
 
 div.light_rounded .pp_next:hover {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_rounded/btnNext.png) center right no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_rounded/btnNext.png) center right no-repeat;
     cursor: pointer
 }
 
 div.light_rounded .pp_previous:hover {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_rounded/btnPrevious.png) center left no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_rounded/btnPrevious.png) center left no-repeat;
     cursor: pointer
 }
 
 div.light_rounded .pp_expand {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_rounded/sprite.png) -31px -26px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_rounded/sprite.png) -31px -26px no-repeat;
     cursor: pointer
 }
 
 div.light_rounded .pp_expand:hover {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_rounded/sprite.png) -31px -47px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_rounded/sprite.png) -31px -47px no-repeat;
     cursor: pointer
 }
 
 div.light_rounded .pp_contract {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_rounded/sprite.png) 0 -26px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_rounded/sprite.png) 0 -26px no-repeat;
     cursor: pointer
 }
 
 div.light_rounded .pp_contract:hover {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_rounded/sprite.png) 0 -47px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_rounded/sprite.png) 0 -47px no-repeat;
     cursor: pointer
 }
 
 div.light_rounded .pp_close {
     width: 75px;
     height: 22px;
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_rounded/sprite.png) -1px -1px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_rounded/sprite.png) -1px -1px no-repeat;
     cursor: pointer
 }
 
 div.light_rounded .pp_nav .pp_play {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_rounded/sprite.png) -1px -100px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_rounded/sprite.png) -1px -100px no-repeat;
     height: 15px;
     width: 14px
 }
 
 div.light_rounded .pp_nav .pp_pause {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_rounded/sprite.png) -24px -100px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_rounded/sprite.png) -24px -100px no-repeat;
     height: 15px;
     width: 14px
 }
 
 div.light_rounded .pp_arrow_previous {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_rounded/sprite.png) 0 -71px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_rounded/sprite.png) 0 -71px no-repeat
 }
 
 div.light_rounded .pp_arrow_next {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_rounded/sprite.png) -22px -71px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_rounded/sprite.png) -22px -71px no-repeat
 }
 
 div.light_rounded .pp_bottom .pp_left {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_rounded/sprite.png) -88px -80px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_rounded/sprite.png) -88px -80px no-repeat
 }
 
 div.light_rounded .pp_bottom .pp_right {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_rounded/sprite.png) -110px -80px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_rounded/sprite.png) -110px -80px no-repeat
 }
 
 div.dark_rounded .pp_top .pp_left {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_rounded/sprite.png) -88px -53px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_rounded/sprite.png) -88px -53px no-repeat
 }
 
 div.dark_rounded .pp_top .pp_right {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_rounded/sprite.png) -110px -53px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_rounded/sprite.png) -110px -53px no-repeat
 }
 
 div.dark_rounded .pp_content_container .pp_left {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat-y
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat-y
 }
 
 div.dark_rounded .pp_content_container .pp_right {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_rounded/contentPattern.png) top right repeat-y
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_rounded/contentPattern.png) top right repeat-y
 }
 
 div.dark_rounded .pp_next:hover {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_rounded/btnNext.png) center right no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_rounded/btnNext.png) center right no-repeat;
     cursor: pointer
 }
 
 div.dark_rounded .pp_previous:hover {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_rounded/btnPrevious.png) center left no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_rounded/btnPrevious.png) center left no-repeat;
     cursor: pointer
 }
 
 div.dark_rounded .pp_expand {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_rounded/sprite.png) -31px -26px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_rounded/sprite.png) -31px -26px no-repeat;
     cursor: pointer
 }
 
 div.dark_rounded .pp_expand:hover {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_rounded/sprite.png) -31px -47px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_rounded/sprite.png) -31px -47px no-repeat;
     cursor: pointer
 }
 
 div.dark_rounded .pp_contract {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_rounded/sprite.png) 0 -26px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_rounded/sprite.png) 0 -26px no-repeat;
     cursor: pointer
 }
 
 div.dark_rounded .pp_contract:hover {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_rounded/sprite.png) 0 -47px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_rounded/sprite.png) 0 -47px no-repeat;
     cursor: pointer
 }
 
 div.dark_rounded .pp_close {
     width: 75px;
     height: 22px;
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_rounded/sprite.png) -1px -1px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_rounded/sprite.png) -1px -1px no-repeat;
     cursor: pointer
 }
 
@@ -10028,35 +10024,35 @@ div.dark_rounded .pp_description {
 }
 
 div.dark_rounded .pp_nav .pp_play {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_rounded/sprite.png) -1px -100px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_rounded/sprite.png) -1px -100px no-repeat;
     height: 15px;
     width: 14px
 }
 
 div.dark_rounded .pp_nav .pp_pause {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_rounded/sprite.png) -24px -100px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_rounded/sprite.png) -24px -100px no-repeat;
     height: 15px;
     width: 14px
 }
 
 div.dark_rounded .pp_arrow_previous {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_rounded/sprite.png) 0 -71px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_rounded/sprite.png) 0 -71px no-repeat
 }
 
 div.dark_rounded .pp_arrow_next {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_rounded/sprite.png) -22px -71px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_rounded/sprite.png) -22px -71px no-repeat
 }
 
 div.dark_rounded .pp_bottom .pp_left {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_rounded/sprite.png) -88px -80px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_rounded/sprite.png) -88px -80px no-repeat
 }
 
 div.dark_rounded .pp_bottom .pp_right {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_rounded/sprite.png) -110px -80px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_rounded/sprite.png) -110px -80px no-repeat
 }
 
 div.dark_rounded .pp_loaderIcon {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_rounded/loader.gif) center center no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_rounded/loader.gif) center center no-repeat
 }
 
 div.dark_square .pp_left,
@@ -10072,33 +10068,33 @@ div.dark_square .pp_description {
 }
 
 div.dark_square .pp_loaderIcon {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_square/loader.gif) center center no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_square/loader.gif) center center no-repeat
 }
 
 div.dark_square .pp_expand {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_square/sprite.png) -31px -26px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_square/sprite.png) -31px -26px no-repeat;
     cursor: pointer
 }
 
 div.dark_square .pp_expand:hover {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_square/sprite.png) -31px -47px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_square/sprite.png) -31px -47px no-repeat;
     cursor: pointer
 }
 
 div.dark_square .pp_contract {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_square/sprite.png) 0 -26px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_square/sprite.png) 0 -26px no-repeat;
     cursor: pointer
 }
 
 div.dark_square .pp_contract:hover {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_square/sprite.png) 0 -47px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_square/sprite.png) 0 -47px no-repeat;
     cursor: pointer
 }
 
 div.dark_square .pp_close {
     width: 75px;
     height: 22px;
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_square/sprite.png) -1px -1px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_square/sprite.png) -1px -1px no-repeat;
     cursor: pointer
 }
 
@@ -10107,136 +10103,136 @@ div.dark_square .pp_nav {
 }
 
 div.dark_square .pp_nav .pp_play {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_square/sprite.png) -1px -100px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_square/sprite.png) -1px -100px no-repeat;
     height: 15px;
     width: 14px
 }
 
 div.dark_square .pp_nav .pp_pause {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_square/sprite.png) -24px -100px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_square/sprite.png) -24px -100px no-repeat;
     height: 15px;
     width: 14px
 }
 
 div.dark_square .pp_arrow_previous {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_square/sprite.png) 0 -71px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_square/sprite.png) 0 -71px no-repeat
 }
 
 div.dark_square .pp_arrow_next {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_square/sprite.png) -22px -71px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_square/sprite.png) -22px -71px no-repeat
 }
 
 div.dark_square .pp_next:hover {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_square/btnNext.png) center right no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_square/btnNext.png) center right no-repeat;
     cursor: pointer
 }
 
 div.dark_square .pp_previous:hover {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_square/btnPrevious.png) center left no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_square/btnPrevious.png) center left no-repeat;
     cursor: pointer
 }
 
 div.light_square .pp_expand {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_square/sprite.png) -31px -26px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_square/sprite.png) -31px -26px no-repeat;
     cursor: pointer
 }
 
 div.light_square .pp_expand:hover {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_square/sprite.png) -31px -47px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_square/sprite.png) -31px -47px no-repeat;
     cursor: pointer
 }
 
 div.light_square .pp_contract {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_square/sprite.png) 0 -26px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_square/sprite.png) 0 -26px no-repeat;
     cursor: pointer
 }
 
 div.light_square .pp_contract:hover {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_square/sprite.png) 0 -47px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_square/sprite.png) 0 -47px no-repeat;
     cursor: pointer
 }
 
 div.light_square .pp_close {
     width: 75px;
     height: 22px;
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_square/sprite.png) -1px -1px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_square/sprite.png) -1px -1px no-repeat;
     cursor: pointer
 }
 
 div.light_square .pp_nav .pp_play {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_square/sprite.png) -1px -100px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_square/sprite.png) -1px -100px no-repeat;
     height: 15px;
     width: 14px
 }
 
 div.light_square .pp_nav .pp_pause {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_square/sprite.png) -24px -100px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_square/sprite.png) -24px -100px no-repeat;
     height: 15px;
     width: 14px
 }
 
 div.light_square .pp_arrow_previous {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_square/sprite.png) 0 -71px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_square/sprite.png) 0 -71px no-repeat
 }
 
 div.light_square .pp_arrow_next {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_square/sprite.png) -22px -71px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_square/sprite.png) -22px -71px no-repeat
 }
 
 div.light_square .pp_next:hover {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_square/btnNext.png) center right no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_square/btnNext.png) center right no-repeat;
     cursor: pointer
 }
 
 div.light_square .pp_previous:hover {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_square/btnPrevious.png) center left no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_square/btnPrevious.png) center left no-repeat;
     cursor: pointer
 }
 
 div.facebook .pp_top .pp_left {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/sprite.png) -88px -53px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/sprite.png) -88px -53px no-repeat
 }
 
 div.facebook .pp_top .pp_middle {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/contentPatternTop.png) top left repeat-x
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/contentPatternTop.png) top left repeat-x
 }
 
 div.facebook .pp_top .pp_right {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/sprite.png) -110px -53px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/sprite.png) -110px -53px no-repeat
 }
 
 div.facebook .pp_content_container .pp_left {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/contentPatternLeft.png) top left repeat-y
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/contentPatternLeft.png) top left repeat-y
 }
 
 div.facebook .pp_content_container .pp_right {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/contentPatternRight.png) top right repeat-y
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/contentPatternRight.png) top right repeat-y
 }
 
 div.facebook .pp_expand {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/sprite.png) -31px -26px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/sprite.png) -31px -26px no-repeat;
     cursor: pointer
 }
 
 div.facebook .pp_expand:hover {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/sprite.png) -31px -47px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/sprite.png) -31px -47px no-repeat;
     cursor: pointer
 }
 
 div.facebook .pp_contract {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/sprite.png) 0 -26px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/sprite.png) 0 -26px no-repeat;
     cursor: pointer
 }
 
 div.facebook .pp_contract:hover {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/sprite.png) 0 -47px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/sprite.png) 0 -47px no-repeat;
     cursor: pointer
 }
 
 div.facebook .pp_close {
     width: 22px;
     height: 22px;
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/sprite.png) -1px -1px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/sprite.png) -1px -1px no-repeat;
     cursor: pointer
 }
 
@@ -10245,11 +10241,11 @@ div.facebook .pp_description {
 }
 
 div.facebook .pp_loaderIcon {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/loader.gif) center center no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/loader.gif) center center no-repeat
 }
 
 div.facebook .pp_arrow_previous {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/sprite.png) 0 -71px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/sprite.png) 0 -71px no-repeat;
     height: 22px;
     margin-top: 0;
     width: 22px
@@ -10261,7 +10257,7 @@ div.facebook .pp_arrow_previous.disabled {
 }
 
 div.facebook .pp_arrow_next {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/sprite.png) -32px -71px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/sprite.png) -32px -71px no-repeat;
     height: 22px;
     margin-top: 0;
     width: 22px
@@ -10282,37 +10278,37 @@ div.facebook .pp_nav p {
 }
 
 div.facebook .pp_nav .pp_play {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/sprite.png) -1px -123px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/sprite.png) -1px -123px no-repeat;
     height: 22px;
     width: 22px
 }
 
 div.facebook .pp_nav .pp_pause {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/sprite.png) -32px -123px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/sprite.png) -32px -123px no-repeat;
     height: 22px;
     width: 22px
 }
 
 div.facebook .pp_next:hover {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/btnNext.png) center right no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/btnNext.png) center right no-repeat;
     cursor: pointer
 }
 
 div.facebook .pp_previous:hover {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/btnPrevious.png) center left no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/btnPrevious.png) center left no-repeat;
     cursor: pointer
 }
 
 div.facebook .pp_bottom .pp_left {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/sprite.png) -88px -80px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/sprite.png) -88px -80px no-repeat
 }
 
 div.facebook .pp_bottom .pp_middle {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/contentPatternBottom.png) top left repeat-x
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/contentPatternBottom.png) top left repeat-x
 }
 
 div.facebook .pp_bottom .pp_right {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/sprite.png) -110px -80px no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/sprite.png) -110px -80px no-repeat
 }
 
 div.pp_pic_holder a:focus {
@@ -10465,7 +10461,7 @@ a.pp_arrow_next {
 }
 
 .pp_gallery li.default a {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;
     display: block;
     height: 33px;
     width: 50px
@@ -10477,7 +10473,7 @@ a.pp_arrow_next {
 }
 
 a.pp_next {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
     display: block;
     float: right;
     height: 100%;
@@ -10486,7 +10482,7 @@ a.pp_next {
 }
 
 a.pp_previous {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
     display: block;
     float: left;
     height: 100%;
@@ -10623,13 +10619,13 @@ div.light_square .pp_arrow_next.disabled {
 
 div.light_rounded .pp_loaderIcon,
 div.light_square .pp_loaderIcon {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/light_rounded/loader.gif) center center no-repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/light_rounded/loader.gif) center center no-repeat
 }
 
 div.dark_rounded .pp_top .pp_middle,
 div.dark_rounded .pp_content,
 div.dark_rounded .pp_bottom .pp_middle {
-    background: url(/assets/wp-content/themes/smart-mag/images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat
+    background: url(/assets/wp-content/themes/smart-mag/css/../images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat
 }
 
 div.dark_rounded .currentTextHolder,
@@ -10690,19 +10686,18 @@ div.dark_square #pp_full_res .pp_inline {
     display: none
 }
 
-
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 
-/* @font-face {
+@font-face {
     font-family: 'FontAwesome';
-    src: url('fonts/fontawesome-webfont.eot@v=4.7.0');
-    src: url('fonts/fontawesome-webfont.eot@') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff2@v=4.7.0') format('woff2'), url('fonts/fontawesome-webfont.woff@v=4.7.0') format('woff'), url('fonts/fontawesome-webfont.ttf@v=4.7.0') format('truetype'), url('fonts/fontawesome-webfont.svg@v=4.7.0') format('svg');
+    src: url(/assets/wp-content/themes/smart-mag/css/fontawesome/css/../fonts/fontawesome-webfont.eot?v=4.7.0);
+    src: url(/assets/wp-content/themes/smart-mag/css/fontawesome/css/../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(/assets/wp-content/themes/smart-mag/css/fontawesome/css/../fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), url(/assets/wp-content/themes/smart-mag/css/fontawesome/css/../fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'), url(/assets/wp-content/themes/smart-mag/css/fontawesome/css/../fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'), url(/assets/wp-content/themes/smart-mag/css/fontawesome/css/../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');
     font-weight: normal;
     font-style: normal
-} */
+}
 
 .fa {
     display: inline-block;
@@ -15871,7 +15866,6 @@ h6 {
     border-bottom-color: #000
 }
 
-
 /*!
 * Do not modify this file directly.  It is concatenated from individual module CSS files.
 */
@@ -15896,7 +15890,7 @@ div.jp-carousel-fadeaway {
 
 .jp-carousel-next-button span,
 .jp-carousel-previous-button span {
-    background: url(../../../plugins/jetpack/modules/carousel/images/arrows.png) no-repeat center center;
+    background: url(/assets/wp-content/plugins/jetpack/css/../modules/carousel/images/arrows.png) no-repeat center center;
     background-size: 200px 126px
 }
 
@@ -15920,7 +15914,7 @@ only screen and (min--moz-device-pixel-ratio:1.5),
 only screen and (min-device-pixel-ratio:1.5) {
     .jp-carousel-next-button span,
     .jp-carousel-previous-button span {
-        background-image: url(../../../plugins/jetpack/modules/carousel/images/arrows-2x.png)
+        background-image: url(/assets/wp-content/plugins/jetpack/css/../modules/carousel/images/arrows-2x.png)
     }
 }
 
@@ -16143,7 +16137,7 @@ div.jp-carousel-buttons a:hover {
 a.jp-carousel-image-download,
 div.jp-carousel-buttons a.jp-carousel-commentlink,
 div.jp-carousel-buttons a.jp-carousel-reblog {
-    background: url(../../../plugins/jetpack/modules/carousel/images/carousel-sprite.png@5) no-repeat;
+    background: url(/assets/wp-content/plugins/jetpack/css/../modules/carousel/images/carousel-sprite.png?5) no-repeat;
     background-size: 16px 200px
 }
 
@@ -16196,7 +16190,7 @@ only screen and (min-device-pixel-ratio:1.5) {
     a.jp-carousel-image-download,
     div.jp-carousel-buttons a.jp-carousel-commentlink,
     div.jp-carousel-buttons a.jp-carousel-reblog {
-        background-image: url(../../../plugins/jetpack/modules/carousel/images/carousel-sprite-2x.png@5)
+        background-image: url(/assets/wp-content/plugins/jetpack/css/../modules/carousel/images/carousel-sprite-2x.png?5)
     }
 }
 
@@ -18403,7 +18397,7 @@ body div div.slideshow-controls a:hover {
     border: 2px solid rgba(255, 255, 255, .1) !important;
     background-color: #000 !important;
     background-color: rgba(0, 0, 0, .6) !important;
-    background-image: url(../../../plugins/jetpack/modules/shortcodes/img/slideshow-controls.png) !important;
+    background-image: url(/assets/wp-content/plugins/jetpack/css/../modules/shortcodes/img/slideshow-controls.png) !important;
     background-repeat: no-repeat;
     background-size: 142px 16px !important;
     background-position: -34px 8px !important;
@@ -18424,7 +18418,7 @@ body div div.slideshow-controls a:hover {
 @media only screen and (-webkit-min-device-pixel-ratio:1.5) {
     body div div.slideshow-controls a,
     body div div.slideshow-controls a:hover {
-        background-image: url(../../../plugins/jetpack/modules/shortcodes/img/slideshow-controls-2x.png) !important
+        background-image: url(/assets/wp-content/plugins/jetpack/css/../modules/shortcodes/img/slideshow-controls-2x.png) !important
     }
 }
 
@@ -18536,7 +18530,7 @@ html.presentation-wrapper-fullscreen-parent {
 .presentation .nav-arrow-left,
 .presentation .nav-arrow-right {
     height: 100%;
-    background-image: url(../../../plugins/jetpack/modules/shortcodes/images/slide-nav.png);
+    background-image: url(/assets/wp-content/plugins/jetpack/css/../modules/shortcodes/images/slide-nav.png);
     background-size: 450% 61px
 }
 
@@ -18557,7 +18551,7 @@ html.presentation-wrapper-fullscreen-parent {
     bottom: 0;
     right: 0;
     z-index: 3;
-    background-image: url(../../../plugins/jetpack/modules/shortcodes/images/expand.png);
+    background-image: url(/assets/wp-content/plugins/jetpack/css/../modules/shortcodes/images/expand.png);
     background-size: 100% 100%
 }
 
@@ -18571,7 +18565,7 @@ html.presentation-wrapper-fullscreen-parent {
 }
 
 .presentation-wrapper-fullscreen .nav-fullscreen-button {
-    background-image: url(../../../plugins/jetpack/modules/shortcodes/images/collapse.png)
+    background-image: url(/assets/wp-content/plugins/jetpack/css/../modules/shortcodes/images/collapse.png)
 }
 
 .presentation .autoplay-overlay {
@@ -19586,7 +19580,7 @@ img#wpstats {
 }
 
 .mejs-overlay-button {
-    background: url(../../../../wp-includes/js/mediaelement/mejs-controls.svg) no-repeat;
+    background: url(/assets/wp-includes/js/mediaelement/mejs-controls.svg) no-repeat;
     background-position: 0 -39px;
     height: 80px;
     width: 80px
@@ -19604,7 +19598,7 @@ img#wpstats {
 .mejs-overlay-loading-bg-img {
     -webkit-animation: a 1s linear infinite;
     animation: a 1s linear infinite;
-    background: transparent url(../../../../wp-includes/js/mediaelement/mejs-controls.svg) -160px -40px no-repeat;
+    background: transparent url(/assets/wp-includes/js/mediaelement/mejs-controls.svg) -160px -40px no-repeat;
     display: block;
     height: 80px;
     width: 80px;
@@ -19658,7 +19652,7 @@ img#wpstats {
 }
 
 .mejs-button>button {
-    background: transparent url(../../../../wp-includes/js/mediaelement/mejs-controls.svg);
+    background: transparent url(/assets/wp-includes/js/mediaelement/mejs-controls.svg);
     border: 0;
     cursor: pointer;
     display: block;
